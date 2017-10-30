@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tracks For MDMA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src='{% static 'dashboard/index.html' %}'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <link rel="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="{% static 'dashboard/css/style.css' %}" />
+</head>
+<body>
+  {% block content%}
+  {% endblock %}
+</body>
+</html>
