@@ -129,6 +129,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+MEDIA_FOLDER = '/var/www/tracksformdma/media'
+
 try:
     from local_settings import *
 except:
